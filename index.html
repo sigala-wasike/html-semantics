@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <hr size="4" noshade="" color="blue">
+    <main>
+    <h1>Introduction to semantic elements in HTML5</h1>
+    <hr size="4" noshade="" color="red">
+    <!-- linking different pages in the index entry file -->
+    <header>
+        <nav>
+            <ol>
+                <a href="Home.html" target="_blank"><li>HOME</li></a>
+                <a href="About.html" target="_blank"><li>ABOUT</li></a>
+                <a href="Ourprograms.html" target="_blank"><li>OUR PROGRAMS</li></a>
+                <a href="Contactus.html"target="_blank"><li> CONTACT US</li></a>
+            </ol>
+        </nav>
+    </header>
+    <!-- creating articles -->
+    <article>
+        <h2>Femidevs program</h2>
+        <p>This is a program that equips women with differnt skills.</p>
+    </article>
+    <!-- section area -->
+    <section>
+        <h1>Hypertext markup language HTML</h1>
+      <p>HTML is the standard markup language for creating web pages and web applications.<br> Browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.<br>
+         HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+    </section>
+    <section>
+        <h1>CSS</h1>
+        <p>A formal language that is used as a description zone, formatting the appearance of a web page written with the help of markup languages HTML and XHTML but it can be applied to any XML-document, for example, to SVG or XUL.</p>
+      </section>
+      <!-- using aside element -->
+      <p>I love watching game of thrones</p>
+      <aside>
+        <h2>Game of Thrones</h2>
+      <p>Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss. It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels</p>
+      </aside>
+      <!-- creating figure element -->
+      <h5>Roses are beautiful</h5>
+      <figure>
+        <img src="https://images.pexels.com/photos/53141/rose-red-blossom-bloom-53141.jpeg?auto=compress&cs=tinysrgb&w=600" width="300" height="300"</br>
+        <figcaption>a beautiful rose</figcaption>
+      </figure>
+      <!-- creating adress element -->
+      <adress>Author: Helena Sigala</br>
+        <a href="helenarsigala@gmail.com">Send Mail to the Author</a>
+    </adress>
+    <!-- creating forms in HTML -->
+<form action="" method="get" class="form-example">
+  <h3>HTML forms</h3>
+  <div class="form-example">
+<label for="name">Enter your name:</label>
+<input type="text" name="name" id="name" required placeholder="please enter your name">
+  </div>
+  <div class="form-example">
+    <label for="email">Enter your email:</label>
+    <input for="text" name="email" id="email"required>
+  </div>
+  <div>
+    <input type="submit" value="subscribe">
+  </div>
+  
+</form>
+      <!-- creating footer element -->
+      <footer>
+        <p>
+            femidevs&copy; 2022
+        </p>
+        <ul>
+            <a href="https://theborderhub.org/"><li>BORDERHUB</li></a>
+            <a href="https://lakehub.co.ke/"><li>LAKEHUB</li></a>
+        </ul>
+      </footer>
+      
+      </main>
+</body>
+</html>
